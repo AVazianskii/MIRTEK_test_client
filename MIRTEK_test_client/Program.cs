@@ -58,7 +58,7 @@ namespace MIRTEK_test_client
             {
                 Console.WriteLine($"Машина №{i + 2}:");
                 Model_name.Handle(data, Next_car_position);
-                if(i == Elements / 4 - 1)
+                if(i == Elements / 4)
                 {
                     Tail.Handle(data, Next_car_position);
                 }
