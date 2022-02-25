@@ -19,10 +19,10 @@
                     }
                     else
                     {
-                        for (int j = i + 1; j < i + 5; j++) // byte_array_from_server.Length
+                        for (int j = i + 1; j < i + 5; j++) 
                         {
                             temp_byte_list.Add(byte_array_from_server[j]);
-                            if (j == i + 4) // byte_array_from_server[j] == 0x02
+                            if (j == i + 4) 
                             {
                                 next_position = j;
                                 Program.Next_car_position = next_position;

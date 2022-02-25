@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MIRTEK_test_client
+﻿namespace MIRTEK_test_client
 {
     internal class Number_of_elements_handler : Handler_template
     {

@@ -1,5 +1,4 @@
-﻿
-namespace MIRTEK_test_client
+﻿namespace MIRTEK_test_client
 {
     internal class Head_handler : Handler_template
     {
